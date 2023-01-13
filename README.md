@@ -14,34 +14,34 @@ public class commanLoginlogoutfunc {
 	    driver.get("write the website in which you want to login");
 	    Thread.sleep(3000);
 	    
-	    //email in click,take the path from the website which u using
+	    //email in click,take the path by inspecting the element and copy that xpath below,from the website which u chose)
 	    webElement emailClick=driver.findElement(By.xpath("//*[@id=\"email\"]"));
 	    emailClick.click();
 	    Thread.sleep(3000);
 	    
-	    //input email id,take the path from the website which u using
+	    //input email id,take the path by inspecting the element and copy that xpath below,from the website which u chose)
 	    webElement typeemailid=driver.findElement(By.xpath("type email id here"));
 	    typeemailid.type();
 	    Thread.sleep(3000);
 	    
 	    
-	    //password click,take the path from the website which u using
+	    //password click,take the path by inspecting the element and copy that xpath below,from the website which u chose)
 	    webElement passwordClick=driver.findElemnt(By.xpath("//*[@id=\"pass\"]"));
 	    passwordClick.click();
 	    Thread.sleep(4000);
 	    
-	    //input password,take the path from the website which u using
+	    //input password,take the path by inspecting the element and copy that xpath below,from the website which u chose)
         webElement typepassword=driver.findElement(By.xpath("type the password here"));
         typepassword.type();
         Thread.sleep(3000);
 	    
 	    
-	    //log In click
+	    //log In click,take the path by inspecting the element and copy that xpath below,from the website which u chose)
 	    webElement log In click=driver.findElement(By.xpath("//*[@id=\"u_0_5_7U\"]"));
 	    log InClick.click();
 	    Thread.sleep(2000);
 	    
-	    //forgot password
+	    //forgot password,take the path by inspecting the element and copy that xpath below,from the website which u chose)
 	    webElement Forgot password click=driver.findElement(By.xpath("//*[@id=\"u_0_2_Mo\"]/div[3]/a"));
 	    Forgot password.click();
 	    Thread.sleep(4000);
