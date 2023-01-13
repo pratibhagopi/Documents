@@ -1,5 +1,5 @@
-# Documents
-//this code is used for login and other functionality(dependency will be there take the latest version for selenium)
+# My login code for web application
+//this code is used for login and other functionality(dependency will be there, take the latest version for selenium)
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
