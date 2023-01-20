@@ -17,7 +17,7 @@ public class commanLoginlogoutfunc {
 	    //email in click,take the path by inspecting the element and copy that xpath below,from the website which u chose)
 	    webElement emailClick=driver.findElement(By.xpath("//*[@id=\"email\"]"));
 	    emailClick.click();
-	    Thread.sleep(3000);
+	    Thread.sleep(3000);(this is used to give time to process any functuionality for going to the next step(it takes 2-3 sec,for ex:Once you type the login ID  and click than it has to go to passowrd tab so the time taken to go to that tab is the sleep time give, another ex:if you search a item in search area than hit enter and wait for that item to appear, so the time between these two step is called as thread.sleep and the number provided is the secounds you can to give for it to appear)
 	    
 	    //input email id,take the path by inspecting the element and copy that xpath below,from the website which u chose)
 	    webElement typeemailid=driver.findElement(By.xpath("type email id here"));
